@@ -1,0 +1,14 @@
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_pub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+    7 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+    7 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/dynamixel_controller_pub.dir/build.make:76: CMakeFiles/dynamixel_controller_pub.dir/src/dynamixel_controller_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/dynamixel_controller_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/dynamixel_controller_sub.dir/build.make:76: CMakeFiles/dynamixel_controller_sub.dir/src/dynamixel_controller_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/dynamixel_controller_sub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

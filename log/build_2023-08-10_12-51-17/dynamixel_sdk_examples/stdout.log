@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/controller.dir/src/dynamixel_controller.cpp.o[0m
+[ 37%] Built target read_write_node
+[ 62%] Built target pub
+[ 87%] Built target sub

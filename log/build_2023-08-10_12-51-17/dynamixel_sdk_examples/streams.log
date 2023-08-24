@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/robo/ros2_dy_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/install/dynamixel_sdk:/home/robo/ros2_dy_ws/install/dynamixel_sdk_examples:/home/robo/ros2_dy_ws/install/cpp_pubsub:/home/robo/ros2_ws/install/turtlesim:/home/robo/ros2_ws/install/positionmotor_massi_pkg:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[0.038s] [ 12%] [32mBuilding CXX object CMakeFiles/controller.dir/src/dynamixel_controller.cpp.o[0m
+[0.038s] [ 37%] Built target read_write_node
+[0.039s] [ 62%] Built target pub
+[0.042s] [ 87%] Built target sub
+[1.265s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:16:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kunit8_t[m[K’ has not been declared
+[1.265s]    16 | void set_motor_position (dynamixel::PortHandler *portHandler, dynamixel::PacketHandler *packetHandler, [01;31m[Kunit8_t[m[K ID, int POSITION){
+[1.265s]       |                                                                                                        [01;31m[K^~~~~~~[m[K
+[1.269s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kvoid set_motor_position(dynamixel::PortHandler*, dynamixel::PacketHandler*, int, int)[m[K’:
+[1.269s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:17:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_goal_position[m[K’ was not declared in this scope
+[1.269s]    17 |     int change_POSITION=packetHandler->write4ByteTxRx(portHandler,ID,[01;31m[Kaddress_goal_position[m[K,POSITION);
+[1.269s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.270s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K At global scope:
+[1.270s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:25:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kunit8_t[m[K’ has not been declared
+[1.270s]    25 | void set_motor_id (dynamixel::PortHandler *portHandler, dynamixel::PacketHandler *packetHandler, [01;31m[Kunit8_t[m[K ID){
+[1.270s]       |                                                                                                  [01;31m[K^~~~~~~[m[K
+[1.273s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kvoid set_motor_id(dynamixel::PortHandler*, dynamixel::PacketHandler*, int)[m[K’:
+[1.273s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_id_position[m[K’ was not declared in this scope
+[1.273s]    26 |     int change_ID=packetHandler->write4ByteTxRx(portHandler,ID,[01;31m[Kaddress_id_position[m[K,3);
+[1.273s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.276s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.276s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ was not declared in this scope
+[1.276s]    36 |     [01;31m[KportHandler[m[K=dynamixel::PortHandler::getPortHandler(dev)
+[1.276s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.276s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:40:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.276s]    40 |     if (portHandler->openPort();[01;31m[K)[m[K{
+[1.276s]       |                                 [01;31m[K^[m[K
+[1.276s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:41:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[1.276s]    41 |         if (portHandler->setBaudRate(baudrate);[01;31m[K)[m[K{
+[1.276s]       |                                                [01;31m[K^[m[K
+[1.278s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:42:31:[m[K [01;31m[Kerror: [m[K‘[01m[KpacketHandler[m[K’ was not declared in this scope
+[1.278s]    42 |             setID(portHandler,[01;31m[KpacketHandler[m[K,ID);
+[1.279s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[1.280s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:42:45:[m[K [01;31m[Kerror: [m[K‘[01m[KID[m[K’ was not declared in this scope
+[1.280s]    42 |             setID(portHandler,packetHandler,[01;31m[KID[m[K);
+[1.280s]       |                                             [01;31m[K^~[m[K
+[1.281s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetID[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetuid[m[K’?
+[1.281s]    42 |             [01;31m[KsetID[m[K(portHandler,packetHandler,ID);
+[1.281s]       |             [01;31m[K^~~~~[m[K
+[1.281s]       |             [32m[Ksetuid[m[K
+[1.283s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:43:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetPosition[m[K’ was not declared in this scope; did you mean ‘[01m[Ksethostid[m[K’?
+[1.283s]    43 |             [01;31m[KsetPosition[m[K(portHandler,packetHandler,ID,POSITION);
+[1.283s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.283s]       |             [32m[Ksethostid[m[K
+[1.520s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/dynamixel_controller.cpp.o] Error 1
+[1.520s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/controller.dir/all] Error 2
+[1.521s] gmake: *** [Makefile:146: all] Error 2
+[1.525s] Invoked command in '/home/robo/ros2_dy_ws/build/dynamixel_sdk_examples' returned '2': CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/install/dynamixel_sdk:/home/robo/ros2_dy_ws/install/dynamixel_sdk_examples:/home/robo/ros2_dy_ws/install/cpp_pubsub:/home/robo/ros2_ws/install/turtlesim:/home/robo/ros2_ws/install/positionmotor_massi_pkg:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/dynamixel_sdk_examples -- -j12 -l12

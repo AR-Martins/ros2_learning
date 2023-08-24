@@ -1,0 +1,72 @@
+[0.006s] Invoking command in '/home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/robo/.local/bin/cmake /home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.139s] -- Detecting C compiler ABI info - done
+[0.146s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.147s] -- Detecting C compile features
+[0.147s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.198s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.434s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.487s] -- Found dynamixel_sdk: 3.7.60 (/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.488s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.513s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.516s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.522s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.547s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.594s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.639s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.641s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.707s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.725s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.801s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.802s] -- Found Threads: TRUE  
+[0.926s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.980s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.981s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.981s] -- Configured cppcheck include dirs: /home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/include
+[0.981s] -- Configured cppcheck exclude dirs and/or files: 
+[0.982s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.982s] -- Configured cpplint exclude dirs and/or files: 
+[0.982s] -- Added test 'lint_cmake' to check CMake code style
+[0.983s] -- Added test 'uncrustify' to check C / C++ code style
+[0.983s] -- Configured uncrustify additional arguments: 
+[0.983s] -- Added test 'xmllint' to check XML markup files
+[0.984s] -- Configuring done (1.0s)
+[0.990s] -- Generating done (0.0s)
+[0.991s] -- Build files have been written to: /home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples
+[1.001s] Invoked command in '/home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/robo/.local/bin/cmake /home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples
+[1.002s] Invoking command in '/home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples -- -j12 -l12
+[1.029s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[5.821s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[6.029s] [100%] Built target read_write_node
+[6.037s] Invoked command in '/home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples -- -j12 -l12
+[6.063s] Invoking command in '/home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/robo/.local/bin/cmake --install /home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples
+[6.078s] -- Install configuration: ""
+[6.078s] -- Execute custom install script
+[6.079s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[6.081s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[6.082s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[6.084s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[6.085s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[6.087s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[6.089s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[6.090s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[6.092s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[6.093s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[6.095s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[6.097s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[6.098s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[6.100s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[6.101s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[6.103s] -- Symlinking: /home/robo/ros2_dy_ws/src/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[6.110s] Invoked command in '/home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/lib:/home/robo/ros2_dy_ws/src/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/robo/ros2_dy_ws/src/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /home/robo/.local/bin/cmake --install /home/robo/ros2_dy_ws/src/build/dynamixel_sdk_examples

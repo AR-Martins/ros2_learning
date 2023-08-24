@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/home/robo/ros2_dy_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/install/dynamixel_sdk:/home/robo/ros2_dy_ws/install/dynamixel_sdk_examples:/home/robo/ros2_dy_ws/install/cpp_pubsub:/home/robo/ros2_ws/install/turtlesim:/home/robo/ros2_ws/install/positionmotor_massi_pkg:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[0.039s] [ 25%] Built target read_write_node
+[0.039s] [ 50%] Built target pub
+[0.041s] [ 62%] [32mBuilding CXX object CMakeFiles/controller.dir/src/dynamixel_controller.cpp.o[0m
+[0.041s] [ 87%] Built target sub
+[0.141s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:10:10:[m[K [01;31m[Kfatal error: [m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk/include/dynamixel_sdk/: No such file or directory
+[0.141s]    10 | #include [01;31m[K"/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk/include/dynamixel_sdk/"[m[K
+[0.141s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.141s] compilation terminated.
+[0.143s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/dynamixel_controller.cpp.o] Error 1
+[0.144s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/controller.dir/all] Error 2
+[0.144s] gmake: *** [Makefile:146: all] Error 2
+[0.149s] Invoked command in '/home/robo/ros2_dy_ws/build/dynamixel_sdk_examples' returned '2': CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/install/dynamixel_sdk:/home/robo/ros2_dy_ws/install/dynamixel_sdk_examples:/home/robo/ros2_dy_ws/install/cpp_pubsub:/home/robo/ros2_ws/install/turtlesim:/home/robo/ros2_ws/install/positionmotor_massi_pkg:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/dynamixel_sdk_examples -- -j12 -l12

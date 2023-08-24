@@ -1,0 +1,42 @@
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:16:104:[m[K [01;31m[Kerror: [m[K‘[01m[Kunit8_t[m[K’ has not been declared
+   16 | void set_motor_position (dynamixel::PortHandler *portHandler, dynamixel::PacketHandler *packetHandler, [01;31m[Kunit8_t[m[K ID, int POSITION){
+      |                                                                                                        [01;31m[K^~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kvoid set_motor_position(dynamixel::PortHandler*, dynamixel::PacketHandler*, int, int)[m[K’:
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:17:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_goal_position[m[K’ was not declared in this scope
+   17 |     int change_POSITION=packetHandler->write4ByteTxRx(portHandler,ID,[01;31m[Kaddress_goal_position[m[K,POSITION);
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K At global scope:
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:25:98:[m[K [01;31m[Kerror: [m[K‘[01m[Kunit8_t[m[K’ has not been declared
+   25 | void set_motor_id (dynamixel::PortHandler *portHandler, dynamixel::PacketHandler *packetHandler, [01;31m[Kunit8_t[m[K ID){
+      |                                                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kvoid set_motor_id(dynamixel::PortHandler*, dynamixel::PacketHandler*, int)[m[K’:
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:26:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kaddress_id_position[m[K’ was not declared in this scope
+   26 |     int change_ID=packetHandler->write4ByteTxRx(portHandler,ID,[01;31m[Kaddress_id_position[m[K,3);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[KportHandler[m[K’ was not declared in this scope
+   36 |     [01;31m[KportHandler[m[K=dynamixel::PortHandler::getPortHandler(dev)
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:40:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   40 |     if (portHandler->openPort();[01;31m[K)[m[K{
+      |                                 [01;31m[K^[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:41:48:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   41 |         if (portHandler->setBaudRate(baudrate);[01;31m[K)[m[K{
+      |                                                [01;31m[K^[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:42:31:[m[K [01;31m[Kerror: [m[K‘[01m[KpacketHandler[m[K’ was not declared in this scope
+   42 |             setID(portHandler,[01;31m[KpacketHandler[m[K,ID);
+      |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:42:45:[m[K [01;31m[Kerror: [m[K‘[01m[KID[m[K’ was not declared in this scope
+   42 |             setID(portHandler,packetHandler,[01;31m[KID[m[K);
+      |                                             [01;31m[K^~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetID[m[K’ was not declared in this scope; did you mean ‘[01m[Ksetuid[m[K’?
+   42 |             [01;31m[KsetID[m[K(portHandler,packetHandler,ID);
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Ksetuid[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller.cpp:43:13:[m[K [01;31m[Kerror: [m[K‘[01m[KsetPosition[m[K’ was not declared in this scope; did you mean ‘[01m[Ksethostid[m[K’?
+   43 |             [01;31m[KsetPosition[m[K(portHandler,packetHandler,ID,POSITION);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Ksethostid[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/dynamixel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

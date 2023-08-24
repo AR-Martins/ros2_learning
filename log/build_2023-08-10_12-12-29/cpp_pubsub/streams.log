@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/robo/ros2_dy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake /home/robo/ros2_dy_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_dy_ws/install/cpp_pubsub
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.220s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.228s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.514s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.536s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.594s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.611s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.700s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.808s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.859s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.923s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.925s] -- Found Threads: TRUE  
+[1.102s] -- Configuring done (1.1s)
+[1.109s] -- Generating done (0.0s)
+[1.110s] -- Build files have been written to: /home/robo/ros2_dy_ws/build/cpp_pubsub
+[1.120s] Invoked command in '/home/robo/ros2_dy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake /home/robo/ros2_dy_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_dy_ws/install/cpp_pubsub
+[1.122s] Invoking command in '/home/robo/ros2_dy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/cpp_pubsub -- -j12 -l12
+[1.151s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.152s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[3.932s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[4.041s] [ 75%] Built target talker
+[6.181s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.393s] [100%] Built target listener
+[6.402s] Invoked command in '/home/robo/ros2_dy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/cpp_pubsub -- -j12 -l12
+[6.432s] Invoking command in '/home/robo/ros2_dy_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/ros2_dy_ws/build/cpp_pubsub
+[6.450s] -- Install configuration: ""
+[6.450s] -- Execute custom install script
+[6.451s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[6.453s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[6.454s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[6.456s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[6.458s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[6.460s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[6.462s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[6.464s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[6.466s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[6.468s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[6.470s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[6.471s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[6.473s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[6.475s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[6.477s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[6.479s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[6.481s] -- Symlinking: /home/robo/ros2_dy_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[6.489s] Invoked command in '/home/robo/ros2_dy_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/ros2_dy_ws/build/cpp_pubsub

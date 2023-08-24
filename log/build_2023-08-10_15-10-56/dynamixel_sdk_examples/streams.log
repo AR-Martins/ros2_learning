@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/robo/ros2_dy_ws/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/install/dynamixel_sdk:/home/robo/ros2_dy_ws/install/dynamixel_sdk_examples:/home/robo/ros2_dy_ws/install/cpp_pubsub:/home/robo/ros2_ws/install/turtlesim:/home/robo/ros2_ws/install/positionmotor_massi_pkg:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/dynamixel_sdk_examples -- -j12 -l12
+[0.040s] [ 12%] [32mBuilding CXX object CMakeFiles/set.dir/src/dynamixel_controller_pub.cpp.o[0m
+[0.041s] [ 37%] Built target read_write_node
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/get.dir/src/dynamixel_controller_sub.cpp.o[0m
+[0.045s] [ 75%] Built target controller
+[1.420s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.420s] [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_pub.cpp:33:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kset_position[m[K’ was not declared in this scope
+[1.420s]    33 |         publisher_->publish([01;31m[Kset_position[m[K);
+[1.420s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[1.861s] gmake[2]: *** [CMakeFiles/set.dir/build.make:76: CMakeFiles/set.dir/src/dynamixel_controller_pub.cpp.o] Error 1
+[1.862s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/set.dir/all] Error 2
+[1.862s] gmake[1]: *** Waiting for unfinished jobs....
+[4.529s] [ 87%] [32m[1mLinking CXX executable get[0m
+[4.721s] [ 87%] Built target get
+[4.722s] gmake: *** [Makefile:146: all] Error 2
+[4.725s] Invoked command in '/home/robo/ros2_dy_ws/build/dynamixel_sdk_examples' returned '2': CMAKE_PREFIX_PATH=/home/robo/ros2_dy_ws/install/dynamixel_sdk_custom_interfaces:/home/robo/ros2_dy_ws/install/dynamixel_sdk:/home/robo/ros2_dy_ws/install/dynamixel_sdk_examples:/home/robo/ros2_dy_ws/install/cpp_pubsub:/home/robo/ros2_ws/install/turtlesim:/home/robo/ros2_ws/install/positionmotor_massi_pkg:/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/build/dynamixel_sdk_examples -- -j12 -l12

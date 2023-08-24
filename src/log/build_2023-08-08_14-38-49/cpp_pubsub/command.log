@@ -1,0 +1,6 @@
+Invoking command in '/home/robo/ros2_dy_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /home/robo/.local/bin/cmake /home/robo/ros2_dy_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_dy_ws/src/install/cpp_pubsub
+Invoked command in '/home/robo/ros2_dy_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/robo/.local/bin/cmake /home/robo/ros2_dy_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robo/ros2_dy_ws/src/install/cpp_pubsub
+Invoking command in '/home/robo/ros2_dy_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/src/build/cpp_pubsub -- -j12 -l12
+Invoked command in '/home/robo/ros2_dy_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/robo/.local/bin/cmake --build /home/robo/ros2_dy_ws/src/build/cpp_pubsub -- -j12 -l12
+Invoking command in '/home/robo/ros2_dy_ws/src/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/ros2_dy_ws/src/build/cpp_pubsub
+Invoked command in '/home/robo/ros2_dy_ws/src/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/robo/.local/bin/cmake --install /home/robo/ros2_dy_ws/src/build/cpp_pubsub

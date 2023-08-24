@@ -1,0 +1,80 @@
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:19:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ in namespace ‘[01m[Kdynamixel_sdk_custom_interfaces[m[K’ does not name a type
+   19 |     void topic_callback(const dynamixel_sdk_custom_interfaces::[01;31m[Ksrv[m[K::GetPosition::SharedPtr message) const
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:19:80:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   19 |     void topic_callback(const dynamixel_sdk_custom_interfaces::srv::GetPosition[01;31m[K::[m[KSharedPtr message) const
+      |                                                                                [01;31m[K^~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:19:80:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   19 |     void topic_callback[34m[K([m[Kconst dynamixel_sdk_custom_interfaces::srv::GetPosition[01;31m[K:[m[K[32m[K:[m[KSharedPtr message) const
+      |                        [34m[K~[m[K                                                       [01;31m[K^[m[K[32m[K~[m[K
+      |                                                                                [32m[K)[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:19:69:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   19 |     void topic_callback(const dynamixel_sdk_custom_interfaces::srv::[01;31m[KGetPosition[m[K::SharedPtr message) const
+      |                                                                     [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                                [32m[K;[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:19:82:[m[K [01;31m[Kerror: [m[K‘[01m[KSharedPtr[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   19 |     void topic_callback(const dynamixel_sdk_custom_interfaces::srv::GetPosition::[01;31m[KSharedPtr[m[K message) const
+      |                                                                                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kdynamixel_sdk_custom_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   23 |     rclcpp::Subscription<dynamixel_sdk_custom_interfaces::[01;31m[Ksrv[m[K::GetPosition>::SharedPtr subscription_;
+      |                                                           [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |     rclcpp::Subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   23 |     rclcpp::Subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                                                       [32m[K;[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:23:88:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   23 |     rclcpp::Subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                                                        [32m[Krmw_subscription_t[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::MinimalSubscriber()[m[K’:
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:15:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   15 |       [01;31m[Ksubscription_[m[K = this->create_subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition>(
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:15:82:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kdynamixel_sdk_custom_interfaces[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+   15 |       subscription_ = this->create_subscription<dynamixel_sdk_custom_interfaces::[01;31m[Ksrv[m[K::GetPosition>(
+      |                                                                                  [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:15:29:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |       subscription_ = this->[01;31m[Kcreate_subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition>[m[K(
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:15:99:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+   15 |       subscription_ = [01;31m[Kthis->create_subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   16 | [01;31m[K      "get_position", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robo/ros2_dy_ws/src/DynamixelSDK/dynamixel_sdk_examples/src/dynamixel_controller_sub.cpp:15:99:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |       subscription_ = [01;31m[Kthis->create_subscription<dynamixel_sdk_custom_interfaces::srv::GetPosition>([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   16 | [01;31m[K      "get_position", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                 
+gmake[2]: *** [CMakeFiles/get.dir/build.make:76: CMakeFiles/get.dir/src/dynamixel_controller_sub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/get.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
